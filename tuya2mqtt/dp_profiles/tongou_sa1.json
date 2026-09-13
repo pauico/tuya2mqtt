@@ -1,0 +1,22 @@
+{
+  "description": "TONGOU SA1-series WiFi current transformer (TOSA1-0150XJWT2A)",
+  "dps": {
+    "1":   {"code": "energy_today_kwh", "type": "value", "scale": 100, "unit": "kWh"},
+    "6":   {"code": "phase_a",          "type": "raw",   "decoder": "phase_meter"},
+    "32":  {"code": "frequency_hz",     "type": "value", "scale": 100, "unit": "Hz"},
+    "50":  {"code": "power_factor",     "type": "value", "scale": 100},
+    "109": {"code": "online_state",     "type": "enum"},
+    "110": {"code": "event_status",     "type": "enum"},
+    "125": {"code": "energy_total_kwh", "type": "value", "scale": 100, "unit": "kWh"},
+    "131": {"code": "temperature_c",    "type": "value", "scale": 10,  "unit": "C"}
+  },
+  "decoders": {
+    "phase_meter": {
+      "fields": [
+        {"name": "voltage",  "start": 0, "length": 2, "scale": 10,   "unit": "V"},
+        {"name": "current",  "start": 2, "length": 3, "scale": 1000, "unit": "A"},
+        {"name": "power_kw", "start": 5, "length": 3, "scale": 1000, "unit": "kW"}
+      ]
+    }
+  }
+}
