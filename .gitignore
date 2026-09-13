@@ -2,4 +2,4 @@ dist/
 build/
 __pycache__/
 *.egg-info/
-tuya2mqtt/devices.json
+tuya2mqtt\devices.json
