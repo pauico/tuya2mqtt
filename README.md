@@ -19,3 +19,10 @@ This script is intentionally streamlined and focused on **robustness**. However,
       * **[tinytuya](https://github.com/jasonacox/tinytuya)**
   * **Network Resources**: As the number of Tuya devices increases, a large number of **TCP connections will be kept alive**. This can put a significant load on a router's resources, so a router with sufficient capacity should be used.
   * **MQTT Broker Environment**: As device connections and communication become more frequent, the MQTT broker may experience increased load. For **maximum performance**, it is recommended to be operated directly on `localhost`.
+
+### Other Projects
+
+  - https://github.com/mafrosis/tinytuya2mqtt
+    + https://github.com/MalHarwood/tinytuya2mqtt/tree/MalH
+    + https://github.com/lehanspb/pytuya2mqtt
+  

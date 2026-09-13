@@ -1,0 +1,1120 @@
+Manufacturer: "TONGOU" Changyou Technology(Zhejiang) Co., Ltd 
+Part Number: TOSA1-0150XJWT2A
+Item: Tuya Smart Energy WiFi Energy Meter-1-50A Real-Time Power & Energy Monitoring, Home Assitant compatible TONGOU
+
+tuya IoT Platform
+----------
+
+Get the specifications and properties of the device
+
+{
+  "result": {
+    "category": "dlq",
+    "functions": [
+      {
+        "code": "forward_energy_total",
+        "desc": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}",
+        "name": "正向总有功电量",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "prepayment_switch",
+        "desc": "{}",
+        "name": "预付费开关",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "clear_energy",
+        "desc": "{}",
+        "name": "电量清零",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "energy_charge",
+        "desc": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}",
+        "name": "电量充值",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "online_state",
+        "desc": "{\"range\":[\"online\",\"offline\"]}",
+        "name": "查询状态",
+        "type": "Enum",
+        "values": "{\"range\":[\"online\",\"offline\"]}"
+      }
+    ],
+    "status": [
+      {
+        "code": "forward_energy_total",
+        "name": "正向总有功电量",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "phase_a",
+        "name": "上报A相电压，电流及功率",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "prepayment_switch",
+        "name": "预付费开关",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "energy_reset",
+        "name": "电量清零",
+        "type": "Enum",
+        "values": "{\"range\":[\"empty\"]}"
+      },
+      {
+        "code": "balance_energy",
+        "name": "剩余可用电量",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "energy_charge",
+        "name": "电量充值",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "supply_frequency",
+        "name": "电网供电频率",
+        "type": "Integer",
+        "values": "{\"unit\":\"Hz\",\"min\":0,\"max\":9999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "online_state",
+        "name": "online_state",
+        "type": "Enum",
+        "values": "{\"range\":[\"online\",\"offline\"]}"
+      }
+    ]
+  },
+  "success": true,
+  "t": 1789226180480,
+  "tid": ""
+}
+
+Get the instruction set of the device
+
+{
+  "result": {
+    "category": "dlq",
+    "functions": [
+      {
+        "code": "forward_energy_total",
+        "desc": "forward energy total",
+        "name": "forward energy total",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "prepayment_switch",
+        "desc": "prepayment switch",
+        "name": "prepayment switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "clear_energy",
+        "desc": "clear energy",
+        "name": "clear energy",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "energy_charge",
+        "desc": "energy charge",
+        "name": "energy charge",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "online_state",
+        "desc": "online state",
+        "name": "online state",
+        "type": "Enum",
+        "values": "{\"range\":[\"online\",\"offline\"]}"
+      }
+    ]
+  },
+  "success": true,
+  "t": 1789226097192,
+  "tid": ""
+}
+
+
+Get the status of a single device
+
+{
+  "result": [
+    {
+      "code": "forward_energy_total",
+      "value": 18
+    },
+    {
+      "code": "phase_a",
+      "value": "CZ8AAGsAABk="
+    },
+    {
+      "code": "prepayment_switch",
+      "value": false
+    },
+    {
+      "code": "energy_reset",
+      "value": ""
+    },
+    {
+      "code": "balance_energy",
+      "value": 0
+    },
+    {
+      "code": "energy_charge",
+      "value": 0
+    },
+    {
+      "code": "supply_frequency",
+      "value": 5002
+    },
+    {
+      "code": "online_state",
+      "value": "online"
+    }
+  ],
+  "success": true,
+  "t": 1789226236901,
+  "tid": ""
+}
+Get Instruction set of the category "dlq"
+
+{
+  "result": {
+    "category": "dlq",
+    "functions": [
+      {
+        "code": "energy_reset",
+        "desc": "energy reset",
+        "name": "energy reset",
+        "type": "Enum",
+        "values": "{\"range\":[\"empty\"]}"
+      },
+      {
+        "code": "alarm_range_setting",
+        "desc": "alarm range setting",
+        "name": "alarm range setting",
+        "type": "String",
+        "values": "{\"maxlen\":255}"
+      },
+      {
+        "code": "temp_current",
+        "desc": "temp current",
+        "name": "temp current",
+        "type": "Integer",
+        "values": "{\"unit\":\"℃\",\"min\":-10,\"max\":70,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "switch",
+        "desc": "switch",
+        "name": "switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_set_1",
+        "desc": "alarm set 1",
+        "name": "alarm set 1",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_set_2",
+        "desc": "alarm set 2",
+        "name": "alarm set 2",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "charge_energy",
+        "desc": "charge energy",
+        "name": "charge energy",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "clear_energy",
+        "desc": "clear energy",
+        "name": "clear energy",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "daily_energy",
+        "desc": "daily energy",
+        "name": "daily energy",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "frozen_time_set",
+        "desc": "frozen time set",
+        "name": "frozen time set",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "leakagecurr_test",
+        "desc": "leakagecurr test",
+        "name": "leakagecurr test",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "leakagecurr_test_set",
+        "desc": "leakagecurr test set",
+        "name": "leakagecurr test set",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "month_energy",
+        "desc": "month energy",
+        "name": "month energy",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "switch_1",
+        "desc": "switch 1",
+        "name": "switch 1",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "switch_prepayment",
+        "desc": "switch prepayment",
+        "name": "switch prepayment",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "prepayment_switch",
+        "desc": "prepayment switch",
+        "name": "prepayment switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "forward_energy_total",
+        "desc": "forward energy total",
+        "name": "forward energy total",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":99999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "energy_charge",
+        "desc": "energy charge",
+        "name": "energy charge",
+        "type": "Integer",
+        "values": "{\"unit\":\"kW·h\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "electric_total",
+        "desc": "electric total",
+        "name": "electric total",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "random_time",
+        "desc": "random time",
+        "name": "random time",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "power_factor",
+        "desc": "power factor",
+        "name": "power factor",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "leakage_fault_value",
+        "desc": "leakage fault value",
+        "name": "leakage fault value",
+        "type": "Integer",
+        "values": "{\"unit\":\"mA\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "alarm_time",
+        "desc": "alarm time",
+        "name": "alarm time",
+        "type": "Integer",
+        "values": "{\"unit\":\"min\",\"min\":1,\"max\":60,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "cycle_timing",
+        "desc": "cycle timing",
+        "name": "cycle timing",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "cold_stall_type",
+        "desc": "cold stall type",
+        "name": "cold stall type",
+        "type": "Enum",
+        "values": "{\"range\":[\"square_area\",\"ignore\",\"consumption\",\"proportion\",\"lease\",\"power\"]}"
+      },
+      {
+        "code": "relay_status",
+        "desc": "relay status",
+        "name": "relay status",
+        "type": "Enum",
+        "values": "{\"range\":[\"off\",\"on\",\"memory\"]}"
+      },
+      {
+        "code": "balance",
+        "desc": "balance",
+        "name": "balance",
+        "type": "Integer",
+        "values": "{\"unit\":\"¥\",\"min\":0,\"max\":999999,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "leakage_warn_value",
+        "desc": "leakage warn value",
+        "name": "leakage warn value",
+        "type": "Integer",
+        "values": "{\"unit\":\"mA\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "clear_balance",
+        "desc": "clear balance",
+        "name": "clear balance",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "zone_admin",
+        "desc": "zone admin",
+        "name": "zone admin",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "over_current_duration",
+        "desc": "over current duration",
+        "name": "over current duration",
+        "type": "Integer",
+        "values": "{\"unit\":\"s\",\"min\":0,\"max\":1000000000,\"scale\":2,\"step\":1}"
+      },
+      {
+        "code": "electric_month",
+        "desc": "electric month",
+        "name": "electric month",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "voltage_current",
+        "desc": "voltage current",
+        "name": "voltage current",
+        "type": "Integer",
+        "values": "{\"unit\":\"V\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "status_query",
+        "desc": "status query",
+        "name": "status query",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "sos_state",
+        "desc": "sos state",
+        "name": "sos state",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "call_looptimes",
+        "desc": "call looptimes",
+        "name": "call looptimes",
+        "type": "Integer",
+        "values": "{\"min\":1,\"max\":10,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "over_temp_value",
+        "desc": "over temp value",
+        "name": "over temp value",
+        "type": "Integer",
+        "values": "{\"min\":-100,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "light_mode",
+        "desc": "light mode",
+        "name": "light mode",
+        "type": "Enum",
+        "values": "{\"range\":[\"relay\",\"pos\",\"none\",\"on\"]}"
+      },
+      {
+        "code": "alarm_active",
+        "desc": "alarm active",
+        "name": "alarm active",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "master_mode",
+        "desc": "master mode",
+        "name": "master mode",
+        "type": "Enum",
+        "values": "{\"range\":[\"disarmed\",\"arm\",\"home\",\"sos\",\"work\",\"play\"]}"
+      },
+      {
+        "code": "alarm_delay_time",
+        "desc": "alarm delay time",
+        "name": "alarm delay time",
+        "type": "Integer",
+        "values": "{\"unit\":\"s\",\"min\":0,\"max\":300,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "delay_set",
+        "desc": "delay set",
+        "name": "delay set",
+        "type": "Integer",
+        "values": "{\"unit\":\"s\",\"min\":0,\"max\":300,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "muffling",
+        "desc": "muffling",
+        "name": "muffling",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "child_lock",
+        "desc": "child lock",
+        "name": "child lock",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_light_switch",
+        "desc": "alarm light switch",
+        "name": "alarm light switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "leakage_action_value",
+        "desc": "leakage action value",
+        "name": "leakage action value",
+        "type": "Integer",
+        "values": "{\"unit\":\"mA\",\"min\":0,\"max\":999,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "online_state",
+        "desc": "online state",
+        "name": "online state",
+        "type": "Enum",
+        "values": "{\"range\":[\"online\",\"offline\"]}"
+      },
+      {
+        "code": "alarm_call_number",
+        "desc": "alarm call number",
+        "name": "alarm call number",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "switch_alarm_sound",
+        "desc": "switch alarm sound",
+        "name": "switch alarm sound",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "cycle_time",
+        "desc": "cycle time",
+        "name": "cycle time",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "auto_lock",
+        "desc": "auto lock",
+        "name": "auto lock",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "master_state",
+        "desc": "master state",
+        "name": "master state",
+        "type": "Enum",
+        "values": "{\"range\":[\"normal\",\"alarm\"]}"
+      },
+      {
+        "code": "alarm_ringtone",
+        "desc": "alarm ringtone",
+        "name": "alarm ringtone",
+        "type": "Enum",
+        "values": "{\"range\":[\"ringtone_1\",\"ringtone_2\",\"ringtone_3\",\"ringtone_4\",\"ringtone_5\"]}"
+      },
+      {
+        "code": "workmode_light_switch",
+        "desc": "workmode light switch",
+        "name": "workmode light switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "mode_dl_sound_switch",
+        "desc": "mode dl sound switch",
+        "name": "mode dl sound switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "countdown_1",
+        "desc": "countdown 1",
+        "name": "countdown 1",
+        "type": "Integer",
+        "values": "{\"unit\":\"s\",\"min\":0,\"max\":86400,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "random_timing",
+        "desc": "random timing",
+        "name": "random timing",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "electric_warm_value",
+        "desc": "electric warm value",
+        "name": "electric warm value",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "supply_frequency",
+        "desc": "supply frequency",
+        "name": "supply frequency",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "current_max",
+        "desc": "current max",
+        "name": "current max",
+        "type": "Integer",
+        "values": "{\"unit\":\"A\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "switch_state",
+        "desc": "switch state",
+        "name": "switch state",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "electric_daily",
+        "desc": "electric daily",
+        "name": "electric daily",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "factory_reset",
+        "desc": "factory reset",
+        "name": "factory reset",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "keyboard_light_switch",
+        "desc": "keyboard light switch",
+        "name": "keyboard light switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "tamper_alarm",
+        "desc": "tamper alarm",
+        "name": "tamper alarm",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "power_limit",
+        "desc": "power limit",
+        "name": "power limit",
+        "type": "Integer",
+        "values": "{\"unit\":\"W\",\"min\":0,\"max\":99999,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "voltage_over",
+        "desc": "voltage over",
+        "name": "voltage over",
+        "type": "Integer",
+        "values": "{\"unit\":\"V\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "zone_attribute",
+        "desc": "zone attribute",
+        "name": "zone attribute",
+        "type": "Enum",
+        "values": "{\"range\":[\"disarmed\",\"arm\",\"home\",\"24h\",\"delay\",\"others\"]}"
+      },
+      {
+        "code": "over_vol_protect_time",
+        "desc": "over vol protect time",
+        "name": "over vol protect time",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "alarm_call_switch",
+        "desc": "alarm call switch",
+        "name": "alarm call switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_sms_number",
+        "desc": "alarm sms number",
+        "name": "alarm sms number",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "power_effective",
+        "desc": "power effective",
+        "name": "power effective",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "workmode_sound_switch",
+        "desc": "workmode sound switch",
+        "name": "workmode sound switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_volume",
+        "desc": "alarm volume",
+        "name": "alarm volume",
+        "type": "Enum",
+        "values": "{\"range\":[\"low\",\"middle\",\"high\",\"mute\"]}"
+      },
+      {
+        "code": "self_checking",
+        "desc": "self checking",
+        "name": "self checking",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "hot_stall_type",
+        "desc": "hot stall type",
+        "name": "hot stall type",
+        "type": "Enum",
+        "values": "{\"range\":[\"square_area\",\"ignore\",\"consumption\",\"proportion\",\"lease\",\"power\"]}"
+      },
+      {
+        "code": "switch_inching",
+        "desc": "switch inching",
+        "name": "switch inching",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "keyboard_sound_switch",
+        "desc": "keyboard sound switch",
+        "name": "keyboard sound switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "master_language",
+        "desc": "master language",
+        "name": "master language",
+        "type": "Enum",
+        "values": "{\"range\":[\"chinese_simplified\",\"chinese_traditional\",\"english\",\"french\",\"italian\",\"german\",\"spanish\",\"portuguese\",\"russian\",\"japanese\"]}"
+      },
+      {
+        "code": "alarm_sms_switch",
+        "desc": "alarm sms switch",
+        "name": "alarm sms switch",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "switch_enabled",
+        "desc": "switch enabled",
+        "name": "switch enabled",
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "residual_electricity",
+        "desc": "residual electricity",
+        "name": "residual electricity",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "over_vol_recovery_time",
+        "desc": "over vol recovery time",
+        "name": "over vol recovery time",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "password_set",
+        "desc": "password set",
+        "name": "password set",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "device_info",
+        "desc": "device info",
+        "name": "device info",
+        "type": "Raw",
+        "values": "{}"
+      },
+      {
+        "code": "power_reactive",
+        "desc": "power reactive",
+        "name": "power reactive",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "system_volume",
+        "desc": "system volume",
+        "name": "system volume",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "voltage_under",
+        "desc": "voltage under",
+        "name": "voltage under",
+        "type": "Integer",
+        "values": "{\"unit\":\"V\",\"min\":0,\"max\":1000000000,\"scale\":4,\"step\":1}"
+      },
+      {
+        "code": "meter_id",
+        "desc": "meter id",
+        "name": "meter id",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "alarm_volume_value",
+        "desc": "alarm volume value",
+        "name": "alarm volume value",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "breaker_id",
+        "desc": "breaker id",
+        "name": "breaker id",
+        "type": "String",
+        "values": "{}"
+      },
+      {
+        "code": "balance_energy",
+        "desc": "balance energy",
+        "name": "balance energy",
+        "type": "Integer",
+        "values": "{\"min\":0,\"max\":99999999,\"step\":1,\"unit\":\"kW·h\",\"scale\":2}"
+      },
+      {
+        "code": "imei_imsi",
+        "desc": "imei imsi",
+        "name": "imei imsi",
+        "type": "String",
+        "values": "{}"
+      }
+    ]
+  },
+  "success": true,
+  "t": 1789232668080,
+  "tid": ""
+}
+
+-----------
+Device Control 
+
+Query Things Data Model
+
+{
+  "result": {
+    "model": "{\"modelId\":\"e1kvf9lw\",\"services\":[{\"actions\":[],\"code\":\"\",\"description\":\"\",\"events\":[],\"name\":\"\",\"properties\":[{\"abilityId\":1,\"accessMode\":\"rw\",\"code\":\"forward_energy_total\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-tongji\",\"scope\":\"\",\"attribute\":\"1536\",\"trigger\":\"direct\"},\"name\":\"正向总有功电量\",\"typeSpec\":{\"type\":\"value\",\"max\":99999999,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":6,\"accessMode\":\"ro\",\"code\":\"phase_a\",\"description\":\"1，A相电压，电流及功率\\n2，大端模式，HEX格式，共8个字节\\n3，单位精度：电压，2字节，单位0.1V。电流，3字节，单位 0.001A 。A相有功功率，3字节，单位0.001kW\\n4，报文格式\\n举例：08 80 00 03 E8 00 27 10 表示A相217.6V，A相电流1.000A，A相功率10.000KW\\n5，通信逻辑：\\n1）用户进面板，主动查询。用户进入面板，面板马上下发0x08到电表，电表上报数据到云平台，面板拿到数据，然后展示。 注：最新WIFI支持。   \\n2）电表基于一定周期上报数据。建议：在WIFI模式时，15秒上报一次。NB模式时，1个小时上报一次。\",\"extensions\":{\"iconName\":\"icon-dp_lightning\",\"attribute\":\"1664\"},\"name\":\"A相电压，电流及功率\",\"typeSpec\":{\"type\":\"raw\",\"maxlen\":128}},{\"abilityId\":11,\"accessMode\":\"rw\",\"code\":\"prepayment_switch\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_money\"},\"name\":\"预付费开关\",\"typeSpec\":{\"type\":\"bool\"}},{\"abilityId\":12,\"accessMode\":\"rw\",\"code\":\"clear_energy\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_lightning\",\"attribute\":\"1152\"},\"name\":\"剩余可用电量清零\",\"typeSpec\":{\"type\":\"bool\"}},{\"abilityId\":13,\"accessMode\":\"ro\",\"code\":\"balance_energy\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_lightning\",\"attribute\":\"1152\"},\"name\":\"剩余可用电量显示\",\"typeSpec\":{\"type\":\"value\",\"max\":99999999,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":14,\"accessMode\":\"rw\",\"code\":\"energy_charge\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_money\",\"attribute\":\"1024\"},\"name\":\"电量充值\",\"typeSpec\":{\"type\":\"value\",\"max\":999999,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":32,\"accessMode\":\"ro\",\"code\":\"supply_frequency\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_lightning\",\"attribute\":\"1152\"},\"name\":\"电网供电频率\",\"typeSpec\":{\"type\":\"value\",\"max\":9999,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"Hz\"}},{\"abilityId\":34,\"accessMode\":\"rw\",\"code\":\"factory_reset\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_anti-clockwise\",\"attribute\":\"1024\"},\"name\":\"恢复出厂设置\",\"typeSpec\":{\"type\":\"bool\"}},{\"abilityId\":50,\"accessMode\":\"ro\",\"code\":\"power_factor\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_lightning\",\"attribute\":\"1024\"},\"name\":\"总功率因数\",\"typeSpec\":{\"type\":\"value\",\"max\":999,\"min\":-999,\"scale\":2,\"step\":1,\"unit\":\"\"}},{\"abilityId\":101,\"accessMode\":\"rw\",\"code\":\"energy_shortage_set\",\"description\":\"\",\"name\":\"余额不足报警\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":102,\"accessMode\":\"rw\",\"code\":\"ov_set\",\"description\":\"\",\"name\":\"过压设置\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":103,\"accessMode\":\"rw\",\"code\":\"uv_set\",\"description\":\"\",\"name\":\"欠压设置\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":104,\"accessMode\":\"rw\",\"code\":\"oc_set\",\"description\":\"\",\"name\":\"过电流设置\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":105,\"accessMode\":\"rw\",\"code\":\"op_set\",\"description\":\"\",\"name\":\"过功率设置\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":107,\"accessMode\":\"rw\",\"code\":\"temp_set\",\"description\":\"\",\"name\":\"温度设置\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Closed\",\"Alarm\"]}},{\"abilityId\":109,\"accessMode\":\"rw\",\"code\":\"online_state\",\"description\":\"\",\"name\":\"在线状态\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"online\",\"offline\"]}},{\"abilityId\":110,\"accessMode\":\"rw\",\"code\":\"event\",\"description\":\"\",\"extensions\":{\"iconName\":\"icon-dp_email\",\"attribute\":\"0\"},\"name\":\"实时事件\",\"typeSpec\":{\"type\":\"enum\",\"range\":[\"Normal\",\"Over_Current_Trip\",\"Over_Power_Trip\",\"High_Temp_Trip\",\"Over_Voltage_Trip\",\"Under_Voltage_Trip\",\"Over_Current_Alarm\",\"Over_Power_Alarm\",\"High_Temp_Alarm\",\"Over_Voltage_Alarm\",\"Under_Voltage_Alarm\",\"Remote_ON\",\"Remote_OFF\",\"Manual_ON\",\"Manual_OFF\",\"Leakage_Trip\",\"Leakage_Alarm\",\"Restore_Default\",\"Automatic_Closing\",\"Electricity_Shortage\",\"Electricity_Shortage_Alarm\",\"Timing_switch_ON\",\"Timing_switch_OFF\",\"Electricity_Reset\"]}},{\"abilityId\":113,\"accessMode\":\"wr\",\"code\":\"rd_set\",\"description\":\"\",\"name\":\"恢复默认开关\",\"typeSpec\":{\"type\":\"bool\"}},{\"abilityId\":114,\"accessMode\":\"rw\",\"code\":\"c_thresh\",\"description\":\"\",\"name\":\"电流阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":50,\"min\":1,\"scale\":0,\"step\":1,\"unit\":\"A\"}},{\"abilityId\":115,\"accessMode\":\"rw\",\"code\":\"ov_thresh\",\"description\":\"\",\"extensions\":{\"scope\":\"\"},\"name\":\"过压阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":280,\"min\":100,\"scale\":0,\"step\":1,\"unit\":\"V\"}},{\"abilityId\":116,\"accessMode\":\"rw\",\"code\":\"uv_thresh\",\"description\":\"\",\"extensions\":{\"scope\":\"\"},\"name\":\"欠压阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":280,\"min\":100,\"scale\":0,\"step\":1,\"unit\":\"V\"}},{\"abilityId\":118,\"accessMode\":\"rw\",\"code\":\"temp_thresh\",\"description\":\"\",\"name\":\"温度阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":1000,\"min\":-250,\"scale\":1,\"step\":1,\"unit\":\"℃\"}},{\"abilityId\":119,\"accessMode\":\"rw\",\"code\":\"op_thresh\",\"description\":\"\",\"name\":\"过功率阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":12000,\"min\":5,\"scale\":0,\"step\":10,\"unit\":\"W\"}},{\"abilityId\":120,\"accessMode\":\"rw\",\"code\":\"energy_shortage\",\"description\":\"\",\"name\":\"余额报警阈值\",\"typeSpec\":{\"type\":\"value\",\"max\":500,\"min\":10,\"scale\":0,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":125,\"accessMode\":\"ro\",\"code\":\"fap_a\",\"description\":\"\",\"extensions\":{\"scope\":\"\",\"trigger\":\"direct\"},\"name\":\"正向总电量\",\"typeSpec\":{\"type\":\"value\",\"max\":99999999,\"min\":0,\"scale\":2,\"step\":1,\"unit\":\"kW·h\"}},{\"abilityId\":131,\"accessMode\":\"ro\",\"code\":\"temp_a\",\"description\":\"\",\"extensions\":{\"scope\":\"\",\"trigger\":\"direct\"},\"name\":\"实时温度\",\"typeSpec\":{\"type\":\"value\",\"max\":1000,\"min\":-250,\"scale\":1,\"step\":1,\"unit\":\"℃\"}}]}]}"
+  },
+  "success": true,
+  "t": 1789227450725,
+  "tid": ""
+}
+
+
+------------
+
+{
+  "result": {
+    "properties": [
+      {
+        "code": "forward_energy_total",
+        "custom_name": "",
+        "dp_id": 1,
+        "time": 1789231486725,
+        "type": "value",
+        "value": 22
+      },
+      {
+        "code": "phase_a",
+        "custom_name": "",
+        "dp_id": 6,
+        "time": 1789231486517,
+        "type": "raw",
+        "value": "CbEAAGwAABo="
+      },
+      {
+        "code": "prepayment_switch",
+        "custom_name": "",
+        "dp_id": 11,
+        "time": 1789204337328,
+        "type": "bool",
+        "value": false
+      },
+      {
+        "code": "clear_energy",
+        "custom_name": "",
+        "dp_id": 12,
+        "time": 1789058899708,
+        "type": "bool",
+        "value": false
+      },
+      {
+        "code": "balance_energy",
+        "custom_name": "",
+        "dp_id": 13,
+        "time": 1789205675157,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "energy_charge",
+        "custom_name": "",
+        "dp_id": 14,
+        "time": 1789058899708,
+        "type": "value",
+        "value": 0
+      },
+      {
+        "code": "supply_frequency",
+        "custom_name": "",
+        "dp_id": 32,
+        "time": 1789231486587,
+        "type": "value",
+        "value": 5006
+      },
+      {
+        "code": "factory_reset",
+        "custom_name": "",
+        "dp_id": 34,
+        "time": 1789058899708,
+        "type": "bool",
+        "value": false
+      },
+      {
+        "code": "power_factor",
+        "custom_name": "",
+        "dp_id": 50,
+        "time": 1789231486710,
+        "type": "value",
+        "value": 97
+      },
+      {
+        "code": "energy_shortage_set",
+        "custom_name": "",
+        "dp_id": 101,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Closed"
+      },
+      {
+        "code": "ov_set",
+        "custom_name": "",
+        "dp_id": 102,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Alarm"
+      },
+      {
+        "code": "uv_set",
+        "custom_name": "",
+        "dp_id": 103,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Alarm"
+      },
+      {
+        "code": "oc_set",
+        "custom_name": "",
+        "dp_id": 104,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Alarm"
+      },
+      {
+        "code": "op_set",
+        "custom_name": "",
+        "dp_id": 105,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Closed"
+      },
+      {
+        "code": "temp_set",
+        "custom_name": "",
+        "dp_id": 107,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Alarm"
+      },
+      {
+        "code": "online_state",
+        "custom_name": "",
+        "dp_id": 109,
+        "time": 1789230965555,
+        "type": "enum",
+        "value": "online"
+      },
+      {
+        "code": "event",
+        "custom_name": "",
+        "dp_id": 110,
+        "time": 1789204337328,
+        "type": "enum",
+        "value": "Normal"
+      },
+      {
+        "code": "rd_set",
+        "custom_name": "",
+        "dp_id": 113,
+        "time": 1789058899708,
+        "type": "bool",
+        "value": false
+      },
+      {
+        "code": "c_thresh",
+        "custom_name": "",
+        "dp_id": 114,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 50
+      },
+      {
+        "code": "ov_thresh",
+        "custom_name": "",
+        "dp_id": 115,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 280
+      },
+      {
+        "code": "uv_thresh",
+        "custom_name": "",
+        "dp_id": 116,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 100
+      },
+      {
+        "code": "temp_thresh",
+        "custom_name": "",
+        "dp_id": 118,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 800
+      },
+      {
+        "code": "op_thresh",
+        "custom_name": "",
+        "dp_id": 119,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 2000
+      },
+      {
+        "code": "energy_shortage",
+        "custom_name": "",
+        "dp_id": 120,
+        "time": 1789204337328,
+        "type": "value",
+        "value": 10
+      },
+      {
+        "code": "fap_a",
+        "custom_name": "",
+        "dp_id": 125,
+        "time": 1789230646150,
+        "type": "value",
+        "value": 22
+      },
+      {
+        "code": "temp_a",
+        "custom_name": "",
+        "dp_id": 131,
+        "time": 1789231486500,
+        "type": "value",
+        "value": 400
+      }
+    ]
+  },
+  "success": true,
+  "t": 1789231489944,
+  "tid": ""
+}
+
+
+First Request returns following:
+[sa1_inv1] DP 1 -> 22
+[sa1_inv1] DP 11 -> False
+[sa1_inv1] DP 13 -> 0
+[sa1_inv1] DP 32 -> 5006
+[sa1_inv1] DP 50 -> 97
+[sa1_inv1] DP 101 -> Closed
+[sa1_inv1] DP 102 -> Alarm
+[sa1_inv1] DP 103 -> Alarm
+[sa1_inv1] DP 104 -> Alarm
+[sa1_inv1] DP 105 -> Closed
+[sa1_inv1] DP 107 -> Alarm
+[sa1_inv1] DP 109 -> online
+[sa1_inv1] DP 110 -> Normal
+[sa1_inv1] DP 114 -> 50
+[sa1_inv1] DP 115 -> 280
+        "code": "ov_thresh",
+        "dp_id": 115,
+[sa1_inv1] DP 116 -> 100
+        "code": "uv_thresh",
+        "dp_id": 116,
+[sa1_inv1] DP 118 -> 800
+[sa1_inv1] DP 119 -> 2000
+[sa1_inv1] DP 120 -> 10
+[sa1_inv1] DP 125 -> 22
